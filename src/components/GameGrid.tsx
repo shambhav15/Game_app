@@ -13,6 +13,7 @@ const GameGrid = ({selectedGenre}: Props) => {
     const skeleton = [1, 2, 3, 4, 5, 6];
     return (
         <>
+
             {error && <Text>{error}</Text>}
             <SimpleGrid
                 padding={5}
