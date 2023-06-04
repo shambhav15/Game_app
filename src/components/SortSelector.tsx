@@ -21,7 +21,6 @@ const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
     return (
         <Menu>
             <MenuButton
-                marginLeft='5'
                 as={Button}
                 rightIcon={<BsChevronBarDown />}>
                 {currentSortOrder?.label || 'Relevance'}
